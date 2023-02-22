@@ -9,7 +9,7 @@ function Pagination({ pages }) {
     return `${pathname}?&page=${page}`;
   };
 
-  function renderPagesHTML(delta = 2) {
+  function renderPagesHTML(delta = 1) {
     const pagesHtml = [];
     const left = currentPage - delta;
     const right = currentPage + delta;
