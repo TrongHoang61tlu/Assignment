@@ -58,6 +58,7 @@ function RandomPage() {
               );
             })}
           </tbody>
+            <h2 className=" font-semibold">Page {page}</h2>
         </table>
       </div>
       <div className=" flex justify-center">
